@@ -125,8 +125,8 @@ export default function Contact() {
                 key={item.id}
                 id={item.id}
                 href={item.href}
-                target={item.href.startsWith("http") ? "_blank" : undefined}
-                rel={item.href.startsWith("http") ? "noopener noreferrer" : undefined}
+                target={item.href?.startsWith("http") ? "_blank" : undefined}
+                rel={item.href?.startsWith("http") ? "noopener noreferrer" : undefined}
                 className="contact-card"
                 aria-label={`${item.label}: ${item.value}`}
               >
