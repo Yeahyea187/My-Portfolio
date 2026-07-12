@@ -12,6 +12,7 @@ const REPO_ICONS: Record<string, string> = {
   "StudyHub v1": "📖",
   RoutinePro: "📅",
   PasswordVault: "🔐",
+  CashFlow: "💰",
   EliteJersey: "👕",
   AgroBridge: "🌾",
 };
@@ -22,7 +23,7 @@ const repositories = [
     category: "web",
     description:
       "Academic note-sharing platform rebuilt with Next.js, API-driven architecture, and enhanced UX.",
-    html_url: "https://github.com/MIHMahmudEli/StudyHub",
+    html_url: "https://github.com/Yeahyea187/StudyHub",
     homepage: "https://studyhubb.great-site.net",
     language: "TypeScript",
     stargazers_count: 2,
@@ -35,7 +36,7 @@ const repositories = [
     category: "web",
     description:
       "Original PHP version with full moderation, gamification, and role-based student access.",
-    html_url: "https://github.com/MIHMahmudEli/StudyHub",
+    html_url: "https://github.com/Yeahyea187/StudyHub",
     homepage: "https://studyhubb.great-site.net",
     language: "PHP",
     stargazers_count: 2,
@@ -48,7 +49,7 @@ const repositories = [
     category: "web",
     description:
       "Smart university class routine generator with conflict-free scheduling and gap optimization.",
-    html_url: "https://github.com/MIHMahmudEli/RoutinePro",
+    html_url: "https://github.com/Yeahyea187/RoutinePro",
     homepage: "https://routine-pro-fawn.vercel.app",
     language: "JavaScript",
     stargazers_count: 0,
@@ -66,11 +67,21 @@ const repositories = [
     forks_count: 0,
   },
   {
+    name: "CashFlow",
+    category: "web",
+    description:
+      "CLI-based personal finance manager for tracking income, expenses, and financial summaries with a clean, color-coded interface.",
+    html_url: "https://github.com/Yeahyea187/CashFlow",
+    language: "Python",
+    stargazers_count: 0,
+    forks_count: 0,
+  },
+  {
     name: "EliteJersey",
     category: "web",
     description:
       "Java Swing desktop app for admin login, product management, and account management.",
-    html_url: "https://github.com/MIHMahmudEli/EliteJersey",
+    html_url: "https://github.com/Yeahyea187/EliteJersey",
     language: "Java",
     stargazers_count: 1,
     forks_count: 1,
@@ -80,7 +91,7 @@ const repositories = [
     category: "web",
     description:
       "Digital platform connecting farmers with resources, market data, and community support.",
-    html_url: "https://github.com/MIHMahmudEli/AgroBridge",
+    html_url: "https://github.com/Yeahyea187/AgroBridge",
     language: "C#",
     stargazers_count: 1,
     forks_count: 1,
