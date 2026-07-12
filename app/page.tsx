@@ -2,6 +2,8 @@ import Navbar from "./components/Navbar";
 import Hero from "./components/Hero";
 import Education from "./components/Education";
 import Skills from "./components/Skills";
+import Research from "./components/Research";
+import Awards from "./components/Awards";
 import Projects from "./components/Projects";
 import Contact from "./components/Contact";
 import Footer from "./components/Footer";
@@ -25,6 +27,12 @@ export default function Home() {
 
           <hr className="gradient-divider" />
           <Skills />
+
+          <hr className="gradient-divider" />
+          <Research />
+
+          <hr className="gradient-divider" />
+          <Awards />
 
           <hr className="gradient-divider" />
           <Projects />

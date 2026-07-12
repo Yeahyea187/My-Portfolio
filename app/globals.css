@@ -39,6 +39,77 @@
   --shadow-card: 0 8px 32px rgba(0, 0, 0, 0.4);
 }
 
+.light {
+  --bg-dark: #f8fafc;
+  --bg-card: rgba(0, 0, 0, 0.03);
+  --bg-card-hover: rgba(0, 0, 0, 0.06);
+  --border: rgba(0, 0, 0, 0.1);
+  --border-hover: rgba(0, 0, 0, 0.2);
+
+  --grad-hero: linear-gradient(135deg, #4f8ef7 0%, #7c3aed 50%, #0891b2 100%);
+  --grad-card: linear-gradient(135deg, rgba(79,142,247,0.1) 0%, rgba(167,139,250,0.08) 100%);
+
+  --text-primary: #0f172a;
+  --text-secondary: rgba(15, 23, 42, 0.65);
+  --text-muted: rgba(15, 23, 42, 0.4);
+
+  --shadow-glow: 0 0 40px rgba(79, 142, 247, 0.1);
+  --shadow-card: 0 8px 32px rgba(0, 0, 0, 0.1);
+}
+
+.light .hero-glass-card {
+  background: rgba(255, 255, 255, 0.7);
+  backdrop-filter: blur(20px);
+  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.08);
+}
+
+.light .navbar {
+  background: rgba(248, 250, 252, 0.85);
+}
+
+.light .hero-name {
+  background: linear-gradient(135deg, #0f172a 0%, rgba(15, 23, 42, 0.7) 100%);
+  -webkit-background-clip: text;
+  background-clip: text;
+}
+
+.light .stat-glass-card {
+  background: rgba(255, 255, 255, 0.6);
+  border-color: rgba(0, 0, 0, 0.08);
+}
+
+.light .edu-glass-card {
+  background: rgba(255, 255, 255, 0.7);
+}
+
+.light .skill-card {
+  background: rgba(255, 255, 255, 0.6);
+}
+
+.light .project-card {
+  background: linear-gradient(180deg, rgba(255,255,255,0.8) 0%, rgba(255,255,255,0.5) 100%);
+}
+
+.light .lang-chart {
+  background: rgba(255, 255, 255, 0.6);
+}
+
+.light .contact-spotlight {
+  background: rgba(255, 255, 255, 0.6);
+}
+
+.light .contact-card {
+  background: rgba(255, 255, 255, 0.6);
+}
+
+.light .award-card {
+  background: rgba(255, 255, 255, 0.6);
+}
+
+.light .footer {
+  border-top-color: rgba(0, 0, 0, 0.1);
+}
+
 html {
   scroll-behavior: smooth;
   font-size: 16px;
@@ -1155,6 +1226,61 @@ body {
 .footer-text a {
   color: var(--accent-blue);
   text-decoration: none;
+}
+
+/* ─── Awards ─────────────────────────────────────────────── */
+.awards-grid {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  max-width: 800px;
+  margin: 0 auto;
+}
+.award-card {
+  display: flex;
+  gap: 24px;
+  padding: 32px;
+  align-items: flex-start;
+  position: relative;
+  overflow: hidden;
+}
+.award-card:hover {
+  transform: translateY(-4px);
+}
+.award-icon-wrap {
+  width: 56px;
+  height: 56px;
+  border-radius: 14px;
+  background: linear-gradient(135deg, rgba(79,142,247,0.2), rgba(167,139,250,0.2));
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.6rem;
+  flex-shrink: 0;
+  border: 1px solid rgba(255,255,255,0.1);
+}
+.award-content {
+  flex: 1;
+}
+.award-title {
+  font-size: 1.15rem;
+  font-weight: 800;
+  color: var(--text-primary);
+  margin-bottom: 4px;
+  letter-spacing: -0.02em;
+}
+.award-org {
+  font-size: 0.82rem;
+  font-weight: 600;
+  color: var(--accent-blue);
+  margin-bottom: 10px;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+.award-desc {
+  font-size: 0.92rem;
+  color: var(--text-secondary);
+  line-height: 1.7;
 }
 
 /* ─── Divider ────────────────────────────────────────────── */

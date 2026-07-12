@@ -75,12 +75,12 @@ export default function Hero() {
           <div className="avatar-wrapper animate-in delay-2" style={{ position: "relative" }}>
             <div className="avatar-morph">
               <Image
-                src="https://avatars.githubusercontent.com/u/220680204?v=4"
+                src="/profile.png"
                 alt="Md Yeahyea Jam profile photo"
                 width={360}
                 height={360}
                 loading="eager"
-                style={{ objectFit: "cover", width: "100%", height: "100%" }}
+                style={{ objectFit: "cover", objectPosition: "center 20%", width: "100%", height: "100%" }}
               />
               <div className="avatar-overlay"></div>
             </div>
