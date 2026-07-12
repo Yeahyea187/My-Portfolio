@@ -29,13 +29,13 @@ export default function Home() {
           <Skills />
 
           <hr className="gradient-divider" />
+          <Projects />
+
+          <hr className="gradient-divider" />
           <Research />
 
           <hr className="gradient-divider" />
           <Awards />
-
-          <hr className="gradient-divider" />
-          <Projects />
 
           <hr className="gradient-divider" />
           <Contact />
